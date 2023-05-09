@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="x-icon" href="sunny.png">
+    <script src="https://kit.fontawesome.com/2a80fbb697.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="bg">
+        <div class="overlay">
+            <section class="container">
+                <div class="opening">
+
+                    <img class="logo" src="sunny.png">
+                    <h1> Sunny Co. </h1>
+                    
+                </div>
+                <div class="title">
+                    <p> Employee <span> Registration Form </span> </p>
+                </div>
+                <form action="#" class="form" name="submit-to-google-sheet">
+                    <div class="subtitle"> Personal Information <hr> </div>
+                    <div class="name-input">
+
+                        <label> Full Name </label>
+
+                        <div class="namebox">
+                            <div class="input1"> 
+                                <input name="lastName" type="text" placeholder="Last Name" required/>
+                            </div>
+                            <div class="input2"> 
+                                <input name="firstName" type="text" placeholder="First Name" required/>
+                            </div>
+                            <div class="input3"> 
+                                <input name="middleName" type="text" placeholder="Middle Name" required/>
+                            </div>
+                            <div class="input4"> 
+                                <input name="suffix" type="text" placeholder="Suffix"/>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <div class="place-input">
+
+                        <label> Place of Birth </label>
+
+                        <div class="placebox">
+
+                            <div class="input1"> 
+                                <input name="cityBirth" type="text" placeholder="City" required/>
+                            </div>
+
+                            <div class="input2"> 
+                                <input name="stateBirth" type="text" placeholder="Province / State" required/>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="day-input">
+                        <label> Date of Birth </label>
+                        <input type="date" id="birthday" name="birthday" required>  
+                    </div>
+                    
+                    <div class="email-input">
+                        <label> Email </label>
+                        <input name="email" type="email" placeholder="example@email.com" required>  
+                    </div>
+
+                    <div class="nationality-input">
+                        <label for="nationality"> Nationality </label>
+                        <select name="nationality" required>
+                            <option value="">-- select one --</option>
+                            <option value="afghan">Afghan</option>
+                            <option value="albanian">Albanian</option>
+                            <option value="algerian">Algerian</option>
+                            <option value="american">American</option>
+                            <option value="andorran">Andorran</option>
+                            <option value="angolan">Angolan</option>
+                            <option value="antiguans">Antiguans</option>
+                            <option value="argentinean">Argentinean</option>
+                            <option value="armenian">Armenian</option>
+                            <option value="australian">Australian</option>
+                            <option value="austrian">Austrian</option>
+                            <option value="azerbaijani">Azerbaijani</option>
+                            <option value="bahamian">Bahamian</option>
+                            <option value="bahraini">Bahraini</option>
+                            <option value="bangladeshi">Bangladeshi</option>
+                            <option value="barbadian">Barbadian</option>
+                            <option value="barbudans">Barbudans</option>
+                            <option value="batswana">Batswana</option>
+                            <option value="belarusian">Belarusian</option>
+                            <option value="belgian">Belgian</option>
+                            <option value="belizean">Belizean</option>
+                            <option value="beninese">Beninese</option>
+                            <option value="bhutanese">Bhutanese</option>
+                            <option value="bolivian">Bolivian</option>
+                            <option value="bosnian">Bosnian</option>
+                            <option value="brazilian">Brazilian</option>
+                            <option value="british">British</option>
+                            <option value="bruneian">Bruneian</option>
+                            <option value="bulgarian">Bulgarian</option>
+                            <option value="burkinabe">Burkinabe</option>
+                            <option value="burmese">Burmese</option>
+                            <option value="burundian">Burundian</option>
+                            <option value="cambodian">Cambodian</option>
+                            <option value="cameroonian">Cameroonian</option>
+                            <option value="canadian">Canadian</option>
+                            <option value="cape verdean">Cape Verdean</option>
+                            <option value="central african">Central African</option>
+                            <option value="chadian">Chadian</option>
+                            <option value="chilean">Chilean</option>
+                            <option value="chinese">Chinese</option>
+                            <option value="colombian">Colombian</option>
+                            <option value="comoran">Comoran</option>
+                            <option value="congolese">Congolese</option>
+                            <option value="costa rican">Costa Rican</option>
+                            <option value="croatian">Croatian</option>
+                            <option value="cuban">Cuban</option>
+                            <option value="cypriot">Cypriot</option>
+                            <option value="czech">Czech</option>
+                            <option value="danish">Danish</option>
+                            <option value="djibouti">Djibouti</option>
+                            <option value="dominican">Dominican</option>
+                            <option value="dutch">Dutch</option>
+                            <option value="east timorese">East Timorese</option>
+                            <option value="ecuadorean">Ecuadorean</option>
+                            <option value="egyptian">Egyptian</option>
+                            <option value="emirian">Emirian</option>
+                            <option value="equatorial guinean">Equatorial Guinean</option>
+                            <option value="eritrean">Eritrean</option>
+                            <option value="estonian">Estonian</option>
+                            <option value="ethiopian">Ethiopian</option>
+                            <option value="fijian">Fijian</option>
+                            <option value="filipino">Filipino</option>
+                            <option value="finnish">Finnish</option>
+                            <option value="french">French</option>
+                            <option value="gabonese">Gabonese</option>
+                            <option value="gambian">Gambian</option>
+                            <option value="georgian">Georgian</option>
+                            <option value="german">German</option>
+                            <option value="ghanaian">Ghanaian</option>
+                            <option value="greek">Greek</option>
+                            <option value="grenadian">Grenadian</option>
+                            <option value="guatemalan">Guatemalan</option>
+                            <option value="guinea-bissauan">Guinea-Bissauan</option>
+                            <option value="guinean">Guinean</option>
+                            <option value="guyanese">Guyanese</option>
+                            <option value="haitian">Haitian</option>
+                            <option value="herzegovinian">Herzegovinian</option>
+                            <option value="honduran">Honduran</option>
+                            <option value="hungarian">Hungarian</option>
+                            <option value="icelander">Icelander</option>
+                            <option value="indian">Indian</option>
+                            <option value="indonesian">Indonesian</option>
+                            <option value="iranian">Iranian</option>
+                            <option value="iraqi">Iraqi</option>
+                            <option value="irish">Irish</option>
+                            <option value="israeli">Israeli</option>
+                            <option value="italian">Italian</option>
+                            <option value="ivorian">Ivorian</option>
+                            <option value="jamaican">Jamaican</option>
+                            <option value="japanese">Japanese</option>
+                            <option value="jordanian">Jordanian</option>
+                            <option value="kazakhstani">Kazakhstani</option>
+                            <option value="kenyan">Kenyan</option>
+                            <option value="kittian and nevisian">Kittian and Nevisian</option>
+                            <option value="kuwaiti">Kuwaiti</option>
+                            <option value="kyrgyz">Kyrgyz</option>
+                            <option value="laotian">Laotian</option>
+                            <option value="latvian">Latvian</option>
+                            <option value="lebanese">Lebanese</option>
+                            <option value="liberian">Liberian</option>
+                            <option value="libyan">Libyan</option>
+                            <option value="liechtensteiner">Liechtensteiner</option>
+                            <option value="lithuanian">Lithuanian</option>
+                            <option value="luxembourger">Luxembourger</option>
+                            <option value="macedonian">Macedonian</option>
+                            <option value="malagasy">Malagasy</option>
+                            <option value="malawian">Malawian</option>
+                            <option value="malaysian">Malaysian</option>
+                            <option value="maldivan">Maldivan</option>
+                            <option value="malian">Malian</option>
+                            <option value="maltese">Maltese</option>
+                            <option value="marshallese">Marshallese</option>
+                            <option value="mauritanian">Mauritanian</option>
+                            <option value="mauritian">Mauritian</option>
+                            <option value="mexican">Mexican</option>
+                            <option value="micronesian">Micronesian</option>
+                            <option value="moldovan">Moldovan</option>
+                            <option value="monacan">Monacan</option>
+                            <option value="mongolian">Mongolian</option>
+                            <option value="moroccan">Moroccan</option>
+                            <option value="mosotho">Mosotho</option>
+                            <option value="motswana">Motswana</option>
+                            <option value="mozambican">Mozambican</option>
+                            <option value="namibian">Namibian</option>
+                            <option value="nauruan">Nauruan</option>
+                            <option value="nepalese">Nepalese</option>
+                            <option value="new zealander">New Zealander</option>
+                            <option value="ni-vanuatu">Ni-Vanuatu</option>
+                            <option value="nicaraguan">Nicaraguan</option>
+                            <option value="nigerien">Nigerien</option>
+                            <option value="north korean">North Korean</option>
+                            <option value="northern irish">Northern Irish</option>
+                            <option value="norwegian">Norwegian</option>
+                            <option value="omani">Omani</option>
+                            <option value="pakistani">Pakistani</option>
+                            <option value="palauan">Palauan</option>
+                            <option value="panamanian">Panamanian</option>
+                            <option value="papua new guinean">Papua New Guinean</option>
+                            <option value="paraguayan">Paraguayan</option>
+                            <option value="peruvian">Peruvian</option>
+                            <option value="polish">Polish</option>
+                            <option value="portuguese">Portuguese</option>
+                            <option value="qatari">Qatari</option>
+                            <option value="romanian">Romanian</option>
+                            <option value="russian">Russian</option>
+                            <option value="rwandan">Rwandan</option>
+                            <option value="saint lucian">Saint Lucian</option>
+                            <option value="salvadoran">Salvadoran</option>
+                            <option value="samoan">Samoan</option>
+                            <option value="san marinese">San Marinese</option>
+                            <option value="sao tomean">Sao Tomean</option>
+                            <option value="saudi">Saudi</option>
+                            <option value="scottish">Scottish</option>
+                            <option value="senegalese">Senegalese</option>
+                            <option value="serbian">Serbian</option>
+                            <option value="seychellois">Seychellois</option>
+                            <option value="sierra leonean">Sierra Leonean</option>
+                            <option value="singaporean">Singaporean</option>
+                            <option value="slovakian">Slovakian</option>
+                            <option value="slovenian">Slovenian</option>
+                            <option value="solomon islander">Solomon Islander</option>
+                            <option value="somali">Somali</option>
+                            <option value="south african">South African</option>
+                            <option value="south korean">South Korean</option>
+                            <option value="spanish">Spanish</option>
+                            <option value="sri lankan">Sri Lankan</option>
+                            <option value="sudanese">Sudanese</option>
+                            <option value="surinamer">Surinamer</option>
+                            <option value="swazi">Swazi</option>
+                            <option value="swedish">Swedish</option>
+                            <option value="swiss">Swiss</option>
+                            <option value="syrian">Syrian</option>
+                            <option value="taiwanese">Taiwanese</option>
+                            <option value="tajik">Tajik</option>
+                            <option value="tanzanian">Tanzanian</option>
+                            <option value="thai">Thai</option>
+                            <option value="togolese">Togolese</option>
+                            <option value="tongan">Tongan</option>
+                            <option value="trinidadian or tobagonian">Trinidadian or Tobagonian</option>
+                            <option value="tunisian">Tunisian</option>
+                            <option value="turkish">Turkish</option>
+                            <option value="tuvaluan">Tuvaluan</option>
+                            <option value="ugandan">Ugandan</option>
+                            <option value="ukrainian">Ukrainian</option>
+                            <option value="uruguayan">Uruguayan</option>
+                            <option value="uzbekistani">Uzbekistani</option>
+                            <option value="venezuelan">Venezuelan</option>
+                            <option value="vietnamese">Vietnamese</option>
+                            <option value="welsh">Welsh</option>
+                            <option value="yemenite">Yemenite</option>
+                            <option value="zambian">Zambian</option>
+                            <option value="zimbabwean">Zimbabwean</option>
+                        </select>
+                    </div>
+
+                    <div class="marital-input">
+                        <label> Marital Status </label>
+                        <select name="status" id="status" required>
+                            <option value=""> -- select one -- </option>
+                            <option value="Single">Single</option>
+                            <option value="Married">Married</option>
+                            <option value="Divorced">Divorced</option>
+                            <option value="Separated">Separated</option>
+                            <option value="Widowed">Widowed</option>
+                        </select> 
+                    </div>
+
+                    <div class="sex-input">
+                        <label> Sex </label>
+                        <input type="radio" id="male" name="sex" value="Male" required>
+                        <label for="male"> Male </label>
+                        <input type="radio" id="female" name="sex" value="Female" required>
+                        <label for="female"> Female </label>
+                    </div>
+
+                    <div class="tel-input">
+                        <label> Telephone No. </label>
+                        <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="(+63) 341 - 0989 - 1293 (optional)">  
+                    </div>
+
+                    <div class="phone-input">
+                        <label> Mobile No. </label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="(+63) 341 - 0989 - 1293" required>   
+                    </div>
+
+                    <div class="subtitle1"> Address <hr> </div>
+                    <div class="permanent-input">
+
+                        <label> Permanent Address </label>
+
+                        <div class="addressbox">
+                            <div class="input1"> 
+                                <input name="houseNoPermanent" type="text" placeholder="House No. / Street / Village " required/>
+                            </div>
+                            <div class="input2"> 
+                                <input name="cityPAddress" type="text" placeholder="City" required/>
+                            </div>
+                            <div class="input3"> 
+                                <input name="statePAddress" type="text" placeholder="Province / State " required/>
+                            </div>
+
+                        </div>
+
+                        <div class="zip">
+                            <label> Postal Code </label>
+                            <input name="postalP" type="text" placeholder="postal code" required/>
+                        </div>
+
+                    </div>
+
+                    <div class="current-input">
+
+                        <label> Current Address </label>
+
+                        <div class="addressbox">
+                            <div class="input1"> 
+                                <input name="houseNoCurrent" type="text" placeholder="House No. / Street / Village " required/>
+                            </div>
+                            <div class="input2"> 
+                                <input name="cityCAddress" type="text" placeholder="City" required/>
+                            </div>
+                            <div class="input3"> 
+                                <input name="stateCAddress" type="text" placeholder="Province / State " required/>
+                            </div>
+
+                        </div>
+
+                        <div class="zip">
+                            <label> Postal Code </label>
+                            <input name="postalC" type="text" placeholder="postal code" required/>
+                        </div>
+                        
+                    </div>
+
+                    <div class="subtitle2"> Work <hr> </div>
+
+                    <div class="position-input">
+                        <label> Applying Position </label>
+                        <select name="apply" id="pos" required>
+                            <option value=""> -- select one -- </option>
+                            <option value="CMO">Chief Marketing Officer</option>
+                            <option value="COO">Chief Operations Officer</option>
+                            <option value="HRM">Human Resources Manager</option>
+                            <option value="IT">Information Technology Manager</option>
+                            <option value="MM">Marketing Manager</option>
+                            <option value="PM">Product Manager</option>
+                            <option value="SM">Sales Manager</option>
+                            <option value="AA">Administrative Assistant</option>
+                            <option value="BK">Bookkeeper</option>
+                            <option value="BA">Business Analyst</option>
+                            <option value="SR">Sales Representative</option>
+                            <option value="SE">Software Engineer</option>
+                        </select> 
+                    </div>
+
+                    <div class="salary-input">
+                        <label> Salary Range </label>
+                        <select name="wage" id="wage" required>
+                            <option value=""> -- select one -- </option>
+                            <option value="level1">Php 14 000 - Php 32 000</option>
+                            <option value="level2">Php 33 000 - Php 50 000</option>
+                            <option value="level3">Php 51 000 - Php 72 000</option>
+                            <option value="level4">Php 73 000 - Php 88 000</option>
+                            <option value="level5">Php 89 000 - Php 100 000+ </option>
+                        </select> 
+                    </div>
+
+                    <div class="type-input">
+                        <label> Type of Work </label>
+
+                        <div class="perm">
+                            <input type="radio" id="perm" name="work" value="perm" required>
+                            <label for="perm"> Permanent </label>
+                        </div>
+                        
+                        <div class="p-time">
+                            <input type="radio" id="p-time" name="work" value="p-time" required>
+                            <label for="p-time"> Part-time  </label>
+                        </div>
+                        
+                        <div class="contract">
+                            <input type="radio" id="contract" name="work" value="contract" required>
+                            <label for="contract"> Contract  </label>
+                        </div>
+                        
+                        <div class="intern">
+                            <input type="radio" id="intern" name="work" value="intern" required>
+                            <label for="intern"> Internship </label>
+                        </div>
+                        
+                        <div class="other">
+                            <input type="radio" id="other" name="work" value="other" required>
+                            <label for="other"> Other </label>
+                        </div>
+
+                    </div>
+
+                    <div class="stat-input">
+
+                        <label> Employment Status </label>
+
+                        <div class="emp">
+                            <input type="radio" id="emp" name="e-stat" value="emp" required>
+                            <label for="emp"> Employed </label>
+                        </div>
+                        
+                        <div class="self">
+                            <input type="radio" id="self" name="e-stat" value="self" required>
+                            <label for="self"> Self-Employed  </label>
+                        </div>
+                        
+                        <div class="unem">
+                            <input type="radio" id="unem" name="e-stat" value="unem" required>
+                            <label for="unem"> Unemployed  </label>
+                        </div>
+                        
+                        <div class="sdnt">
+                            <input type="radio" id="sdnt" name="e-stat" value="sdnt" required>
+                            <label for="sdnt"> Student </label>
+                        </div>
+
+                        <div class="other">
+                            <input type="radio" id="other" name="e-stat" value="other" required>
+                            <label for="other"> Other </label>
+                        </div>
+
+                    </div>
+
+                    <div class="resume-input">
+                        Resume
+                        <input name="file" type="file" id="uploaded" required>
+                        <label for="uploaded"> <i class="fa-solid fa-upload" style="color: #693a68;"></i>
+                            &nbsp; Upload Resume / CV </label>
+                    </div>
+
+                    <div class="text-input">
+                        <p> Cover Letter </p>
+                        <textarea name="Message" rows="13" required></textarea>
+                    </div>
+
+                    <div class="subtitle3"> Other <hr> </div>
+
+                    <div class="disability-input">
+                        <label> Disabilities </label>
+
+                        <div class="grp">
+                            
+                            <div class="no">
+                                <input type="radio" id="no" name="disabilities" value="no" required>
+                                <label for="no"> I have no disabilities </label>
+                            </div>
+                            
+                            <div class="two">
+                                <input type="radio" id="two" name="disabilities" value="two" required>
+                                <label for="two"> I have two or more impairments and/or disabling medical conditions.  </label>
+                            </div>
+                            
+                            <div class="sld">
+                                <input type="radio" id="sld" name="disabilities" value="sld" required>
+                                <label for="sld"> I have a Specific Learning Difficulty (e.g. Dyslexia/Dyspraxia/AD(H)D)  </label>
+                            </div>
+                            
+                            <div class="ci">
+                                <input type="radio" id="ci" name="disabilities" value="ci" required>
+                                <label for="ci"> I have a social/communication impairment such as Asperger's syndrome/other autistic spectrum disorder </label>
+                            </div>
+                            
+                            <div class="hc">
+                                <input type="radio" id="hc" name="disabilities" value="hc" required>
+                                <label for="hc"> I have a long standing illness or health condition such as cancer, HIV, diabetes, chronic heart disease, or epilepsy </label>
+                            </div>
+    
+                            <div class="pi">
+                                <input type="radio" id="pi" name="disabilities" value="pi" required>
+                                <label for="pi"> I have a physical impairment or mobility issues (e.g. difficulty using arms/using a wheelchair or crutches) </label>
+                            </div>
+                            
+                            <div class="df">
+                                <input type="radio" id="df" name="disabilities" value="df" required>
+                                <label for="df"> I am deaf or have a serious hearing impairment  </label>
+                            </div>
+                            
+                            <div class="bl">
+                                <input type="radio" id="bl" name="disabilities" value="bl" required>
+                                <label for="bl"> I am blind or have a serious visual impairment uncorrected by glasses  </label>
+                            </div>
+                            
+                            <div class="na">
+                                <input type="radio" id="na" name="disabilities" value="na" required>
+                                <label for="na"> Prefer not to answer </label>
+                            </div>
+                            
+                            <div class="hv">
+                                <input type="radio" id="hv" name="disabilities" value="hv" required>
+                                <label for="hv"> I have a disability, impairment or medical condition not listed here </label>
+                            </div>
+    
+                        </div>
+                        
+                    </div>
+
+                    <div class="submit-btn" onclick="openPopup()">
+                        <input type="submit" value=" Register ">
+                    </div>
+
+                    <div class="popup" id="popup">
+                        <img src="success.png">
+                        <h3>Thank You!</h3>
+                        <p>Your details has been successfully submitted.</p>
+                        <button type="button" onclick="closePopup()">Ok</button>
+                    </div>
+
+                </form>
+
+                <script>
+                    const scriptURL = 'https://script.google.com/macros/s/AKfycbwLRtgADGD2fr-pF0ybOLGR7mB-HobsOAiCdCrzwSfpy5Wn2BNDnpsXflLFYCQQm00B/exec'
+                    const form = document.forms['submit-to-google-sheet']
+                  
+                    form.addEventListener('submit', e => {
+                      e.preventDefault()
+                      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                        .then(response => console.log('Success!', response))
+                        .catch(error => console.error('Error!', error.message))
+                    })
+                </script>
+
+
+
+            </section>
+        </div>
+   </div>
+
+   <script>
+    let popup =document.getElementById("popup");
+
+    function openPopup()
+    {
+        popup.classList.add("open-popup");
+    }
+
+    function closePopup()
+    {
+        popup.classList.remove("open-popup");
+    }
+    </script>
+
+</body>
+</html>
